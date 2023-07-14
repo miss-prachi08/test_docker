@@ -10,7 +10,7 @@ COPY index.html /var/www/html
 
 WORKDIR /var/www/html
 
-
+#changed for test
 RUN echo "ServerName localhost" >> /etc/httpd/conf/httpd.conf
 
 EXPOSE 80
