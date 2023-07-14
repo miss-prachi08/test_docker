@@ -19,8 +19,4 @@ EXPOSE 443
 
 CMD ["httpd", "-D","FOREGROUND"]
 
-#ENTRYPOINT ["/usr/sbin/httpd","-D", "foreground"] 
 
-#cmd echo "Hello World"
-
-#cmd [ "echo" , "$email" ]
